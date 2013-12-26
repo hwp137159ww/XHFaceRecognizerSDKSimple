@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+// 如果提示错误，运行不了，那就把XHFaceRecognizerFramework.framework文件删除了，记得是选择remove reference，而是选择move to trash，然后在文件里面找回这个XHFaceRecognizerFramework.framework文件，重新拖进来
 #import <XHFaceRecognizerFramework/XHFaceRecognizerView.h>
 
 @interface ViewController : UIViewController

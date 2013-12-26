@@ -39,7 +39,7 @@
 }
 
 - (IBAction)reset:(id)sender {
-    [self.simpleImageView resetNormalImage:[UIImage imageNamed:@"IMG_1404.JPG"]];
+    [self.simpleImageView resetNormalImage:[UIImage imageNamed:@"logo.JPG"]];
 }
 
 - (IBAction)cropped:(id)sender {

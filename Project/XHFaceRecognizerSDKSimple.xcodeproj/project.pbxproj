@@ -22,8 +22,12 @@
 		AB1141FF186BC7FA0005FA36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1141DE186BC7FA0005FA36 /* UIKit.framework */; };
 		AB114207186BC7FA0005FA36 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AB114205186BC7FA0005FA36 /* InfoPlist.strings */; };
 		AB114209186BC7FA0005FA36 /* XHFaceRecognizerSDKSimpleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AB114208186BC7FA0005FA36 /* XHFaceRecognizerSDKSimpleTests.m */; };
-		AB114213186BC8900005FA36 /* XHFaceRecognizerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB114212186BC8900005FA36 /* XHFaceRecognizerFramework.framework */; };
-		AB114215186BC8E80005FA36 /* IMG_1404.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AB114214186BC8E80005FA36 /* IMG_1404.JPG */; };
+		AB28ADF9186C35D300DAC3E0 /* logo.JPG in Resources */ = {isa = PBXBuildFile; fileRef = AB28ADF8186C35D300DAC3E0 /* logo.JPG */; };
+		AB28AE1E186C3E2700DAC3E0 /* mouth.png in Resources */ = {isa = PBXBuildFile; fileRef = AB28AE1A186C3E2700DAC3E0 /* mouth.png */; };
+		AB28AE1F186C3E2700DAC3E0 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = AB28AE1B186C3E2700DAC3E0 /* eye.png */; };
+		AB28AE20186C3E2700DAC3E0 /* eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB28AE1C186C3E2700DAC3E0 /* eye@2x.png */; };
+		AB28AE21186C3E2700DAC3E0 /* mouth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB28AE1D186C3E2700DAC3E0 /* mouth@2x.png */; };
+		AB28AE24186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB28AE23186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,8 +61,12 @@
 		AB114204186BC7FA0005FA36 /* XHFaceRecognizerSDKSimpleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "XHFaceRecognizerSDKSimpleTests-Info.plist"; sourceTree = "<group>"; };
 		AB114206186BC7FA0005FA36 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		AB114208186BC7FA0005FA36 /* XHFaceRecognizerSDKSimpleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XHFaceRecognizerSDKSimpleTests.m; sourceTree = "<group>"; };
-		AB114212186BC8900005FA36 /* XHFaceRecognizerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XHFaceRecognizerFramework.framework; sourceTree = "<group>"; };
-		AB114214186BC8E80005FA36 /* IMG_1404.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_1404.JPG; sourceTree = "<group>"; };
+		AB28ADF8186C35D300DAC3E0 /* logo.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = logo.JPG; sourceTree = "<group>"; };
+		AB28AE1A186C3E2700DAC3E0 /* mouth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mouth.png; sourceTree = "<group>"; };
+		AB28AE1B186C3E2700DAC3E0 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
+		AB28AE1C186C3E2700DAC3E0 /* eye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye@2x.png"; sourceTree = "<group>"; };
+		AB28AE1D186C3E2700DAC3E0 /* mouth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mouth@2x.png"; sourceTree = "<group>"; };
+		AB28AE23186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XHFaceRecognizerFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB114213186BC8900005FA36 /* XHFaceRecognizerFramework.framework in Frameworks */,
+				AB28AE24186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework in Frameworks */,
 				AB1141DD186BC7FA0005FA36 /* CoreGraphics.framework in Frameworks */,
 				AB1141DF186BC7FA0005FA36 /* UIKit.framework in Frameworks */,
 				AB1141DB186BC7FA0005FA36 /* Foundation.framework in Frameworks */,
@@ -89,6 +97,7 @@
 		AB1141CE186BC7FA0005FA36 = {
 			isa = PBXGroup;
 			children = (
+				AB28AE22186C3EFE00DAC3E0 /* Source */,
 				AB1141E0186BC7FA0005FA36 /* XHFaceRecognizerSDKSimple */,
 				AB114202186BC7FA0005FA36 /* XHFaceRecognizerSDKSimpleTests */,
 				AB1141D9186BC7FA0005FA36 /* Frameworks */,
@@ -119,7 +128,6 @@
 		AB1141E0186BC7FA0005FA36 /* XHFaceRecognizerSDKSimple */ = {
 			isa = PBXGroup;
 			children = (
-				AB114212186BC8900005FA36 /* XHFaceRecognizerFramework.framework */,
 				AB1141E9186BC7FA0005FA36 /* AppDelegate.h */,
 				AB1141EA186BC7FA0005FA36 /* AppDelegate.m */,
 				AB1141EC186BC7FA0005FA36 /* Main_iPhone.storyboard */,
@@ -135,11 +143,15 @@
 		AB1141E1186BC7FA0005FA36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				AB114214186BC8E80005FA36 /* IMG_1404.JPG */,
+				AB28ADF8186C35D300DAC3E0 /* logo.JPG */,
 				AB1141E2186BC7FA0005FA36 /* XHFaceRecognizerSDKSimple-Info.plist */,
 				AB1141E3186BC7FA0005FA36 /* InfoPlist.strings */,
 				AB1141E6186BC7FA0005FA36 /* main.m */,
 				AB1141E8186BC7FA0005FA36 /* XHFaceRecognizerSDKSimple-Prefix.pch */,
+				AB28AE1B186C3E2700DAC3E0 /* eye.png */,
+				AB28AE1C186C3E2700DAC3E0 /* eye@2x.png */,
+				AB28AE1A186C3E2700DAC3E0 /* mouth.png */,
+				AB28AE1D186C3E2700DAC3E0 /* mouth@2x.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -160,6 +172,15 @@
 				AB114205186BC7FA0005FA36 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AB28AE22186C3EFE00DAC3E0 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				AB28AE23186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework */,
+			);
+			name = Source;
+			path = ../Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +259,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB28AE21186C3E2700DAC3E0 /* mouth@2x.png in Resources */,
+				AB28ADF9186C35D300DAC3E0 /* logo.JPG in Resources */,
 				AB1141F1186BC7FA0005FA36 /* Main_iPad.storyboard in Resources */,
+				AB28AE20186C3E2700DAC3E0 /* eye@2x.png in Resources */,
 				AB1141F6186BC7FA0005FA36 /* Images.xcassets in Resources */,
 				AB1141EE186BC7FA0005FA36 /* Main_iPhone.storyboard in Resources */,
-				AB114215186BC8E80005FA36 /* IMG_1404.JPG in Resources */,
+				AB28AE1F186C3E2700DAC3E0 /* eye.png in Resources */,
 				AB1141E5186BC7FA0005FA36 /* InfoPlist.strings in Resources */,
+				AB28AE1E186C3E2700DAC3E0 /* mouth.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -403,6 +428,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/JackMacbook/JackTeamDeveloper/XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple,
+					/Users/JackMacbook/JackTeamDeveloper/XHFaceRecognizerSDKSimple/Source,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple-Prefix.pch";
@@ -420,6 +446,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/JackMacbook/JackTeamDeveloper/XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple,
+					/Users/JackMacbook/JackTeamDeveloper/XHFaceRecognizerSDKSimple/Source,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple-Prefix.pch";
