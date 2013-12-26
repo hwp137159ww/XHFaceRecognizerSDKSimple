@@ -13,6 +13,11 @@ XHFaceRecognizer是一款耦合性很低，复用性很好的人脸检测组件�
   6.放大镜选择眼睛和嘴巴的位置
   
   
+![image](https://github.com/JackTeam/XHFaceRecognizerSDKSimple/raw/master/Screenshots/监测中.png)
+![image](https://github.com/JackTeam/XHFaceRecognizerSDKSimple/raw/master/Screenshots/监测出来.png)
+![image](https://github.com/JackTeam/XHFaceRecognizerSDKSimple/raw/master/Screenshots/裁剪.png)
+  
+  
 ## 开源模式
 1、这里已经是SDK模式了     
 2、只要关注该组件的用户数量达到100个以上，将以开源所有代码的模式。    
