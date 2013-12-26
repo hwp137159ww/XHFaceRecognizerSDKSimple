@@ -11,7 +11,7 @@
 @class XHFaceRecognizerView;
 @class XHFacePosition;
 
-typedef void(^FaceCropCompelted)(UIImage *croppedImage, NSError *error);
+typedef void(^FaceCropCompelted)(NSArray *croppedImages, NSError *error);
 @protocol XHFaceRecognizerViewDelegate <NSObject>
 
 - (void)faceViewWillRecognizer:(XHFaceRecognizerView *)faceView;
@@ -22,8 +22,6 @@ typedef void(^FaceCropCompelted)(UIImage *croppedImage, NSError *error);
 
 
 @interface XHFaceRecognizerView : UIView
-
-@property (nonatomic, weak, readonly) XHFacePosition *facePosition;
 
 @property (nonatomic, assign) id <XHFaceRecognizerViewDelegate> delegate;
 @property (nonatomic, assign) CGFloat magnifyingGlassShowDelay; // default is 0.2s

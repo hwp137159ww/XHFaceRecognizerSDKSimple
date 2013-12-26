@@ -39,12 +39,12 @@
 }
 
 - (IBAction)reset:(id)sender {
-    [self.simpleImageView resetNormalImage:[UIImage imageNamed:@"logo.JPG"]];
+    [self.simpleImageView resetNormalImage:[UIImage imageNamed:@"steves.jpg"]];
 }
 
 - (IBAction)cropped:(id)sender {
-    [self.simpleImageView croppingFaceWtihFaceCropCompelted:^(UIImage *croppedImage, NSError *error) {
-        
+    [self.simpleImageView croppingFaceWtihFaceCropCompelted:^(NSArray *croppedImages, NSError *error) {
+        NSLog(@"croppedImages : %@", croppedImages);
     }];
 }
 

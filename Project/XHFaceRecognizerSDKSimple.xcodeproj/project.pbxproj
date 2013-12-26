@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0C388D186CEE2A004C9E26 /* steves.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AB0C388C186CEE2A004C9E26 /* steves.jpg */; };
 		AB1141DB186BC7FA0005FA36 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1141DA186BC7FA0005FA36 /* Foundation.framework */; };
 		AB1141DD186BC7FA0005FA36 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1141DC186BC7FA0005FA36 /* CoreGraphics.framework */; };
 		AB1141DF186BC7FA0005FA36 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB1141DE186BC7FA0005FA36 /* UIKit.framework */; };
@@ -41,6 +42,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AB0C388C186CEE2A004C9E26 /* steves.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = steves.jpg; sourceTree = "<group>"; };
 		AB1141D7186BC7FA0005FA36 /* XHFaceRecognizerSDKSimple.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XHFaceRecognizerSDKSimple.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB1141DA186BC7FA0005FA36 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		AB1141DC186BC7FA0005FA36 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -143,6 +145,7 @@
 		AB1141E1186BC7FA0005FA36 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				AB0C388C186CEE2A004C9E26 /* steves.jpg */,
 				AB28ADF8186C35D300DAC3E0 /* logo.JPG */,
 				AB1141E2186BC7FA0005FA36 /* XHFaceRecognizerSDKSimple-Info.plist */,
 				AB1141E3186BC7FA0005FA36 /* InfoPlist.strings */,
@@ -268,6 +271,7 @@
 				AB28AE1F186C3E2700DAC3E0 /* eye.png in Resources */,
 				AB1141E5186BC7FA0005FA36 /* InfoPlist.strings in Resources */,
 				AB28AE1E186C3E2700DAC3E0 /* mouth.png in Resources */,
+				AB0C388D186CEE2A004C9E26 /* steves.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
