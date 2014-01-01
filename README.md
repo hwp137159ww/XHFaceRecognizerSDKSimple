@@ -25,6 +25,7 @@ XHFaceRecognizer是一款耦合性很低，复用性很好的人脸检测组件�
 请移步到开源所有代码：https://github.com/JackTeam/XHFaceRecognizer     
 
 
+## License
 
 中文:      XHFaceRecognizerSDKSimple 是在MIT协议下使用的，可以在LICENSE文件里面找到相关的使用协议信息.
 
