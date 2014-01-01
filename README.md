@@ -26,3 +26,7 @@ XHFaceRecognizer是一款耦合性很低，复用性很好的人脸检测组件�
 
 
 
+中文:      XHFaceRecognizerSDKSimple 是在MIT协议下使用的，可以在LICENSE文件里面找到相关的使用协议信息.
+
+English:   XHFaceRecognizerSDKSimple is acailable under the MIT license, see the LICENSE file for more information.
+
