@@ -28,7 +28,7 @@
 		AB28AE1F186C3E2700DAC3E0 /* eye.png in Resources */ = {isa = PBXBuildFile; fileRef = AB28AE1B186C3E2700DAC3E0 /* eye.png */; };
 		AB28AE20186C3E2700DAC3E0 /* eye@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB28AE1C186C3E2700DAC3E0 /* eye@2x.png */; };
 		AB28AE21186C3E2700DAC3E0 /* mouth@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AB28AE1D186C3E2700DAC3E0 /* mouth@2x.png */; };
-		AB28AE24186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB28AE23186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework */; };
+		AB6204321885725E000A96B5 /* XHFaceRecognizerFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6204311885725E000A96B5 /* XHFaceRecognizerFramework.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,7 +68,7 @@
 		AB28AE1B186C3E2700DAC3E0 /* eye.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = eye.png; sourceTree = "<group>"; };
 		AB28AE1C186C3E2700DAC3E0 /* eye@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "eye@2x.png"; sourceTree = "<group>"; };
 		AB28AE1D186C3E2700DAC3E0 /* mouth@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "mouth@2x.png"; sourceTree = "<group>"; };
-		AB28AE23186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XHFaceRecognizerFramework.framework; sourceTree = "<group>"; };
+		AB6204311885725E000A96B5 /* XHFaceRecognizerFramework.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = XHFaceRecognizerFramework.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,7 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB28AE24186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework in Frameworks */,
+				AB6204321885725E000A96B5 /* XHFaceRecognizerFramework.framework in Frameworks */,
 				AB1141DD186BC7FA0005FA36 /* CoreGraphics.framework in Frameworks */,
 				AB1141DF186BC7FA0005FA36 /* UIKit.framework in Frameworks */,
 				AB1141DB186BC7FA0005FA36 /* Foundation.framework in Frameworks */,
@@ -99,7 +99,7 @@
 		AB1141CE186BC7FA0005FA36 = {
 			isa = PBXGroup;
 			children = (
-				AB28AE22186C3EFE00DAC3E0 /* Source */,
+				AB6204301885725E000A96B5 /* Source */,
 				AB1141E0186BC7FA0005FA36 /* XHFaceRecognizerSDKSimple */,
 				AB114202186BC7FA0005FA36 /* XHFaceRecognizerSDKSimpleTests */,
 				AB1141D9186BC7FA0005FA36 /* Frameworks */,
@@ -177,10 +177,10 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		AB28AE22186C3EFE00DAC3E0 /* Source */ = {
+		AB6204301885725E000A96B5 /* Source */ = {
 			isa = PBXGroup;
 			children = (
-				AB28AE23186C3EFE00DAC3E0 /* XHFaceRecognizerFramework.framework */,
+				AB6204311885725E000A96B5 /* XHFaceRecognizerFramework.framework */,
 			);
 			name = Source;
 			path = ../Source;
@@ -427,16 +427,19 @@
 		AB11420D186BC7FA0005FA36 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/JackMacbook/JackTeamDeveloper/XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple,
 					/Users/JackMacbook/JackTeamDeveloper/XHFaceRecognizerSDKSimple/Source,
+					/Users/JackMacbook/JackTeamDeveloper/JackTeamGithub/XHFaceRecognizerSDKSimple/Source,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple-Prefix.pch";
 				INFOPLIST_FILE = "XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -445,16 +448,19 @@
 		AB11420E186BC7FA0005FA36 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					/Users/JackMacbook/JackTeamDeveloper/XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple,
 					/Users/JackMacbook/JackTeamDeveloper/XHFaceRecognizerSDKSimple/Source,
+					/Users/JackMacbook/JackTeamDeveloper/JackTeamGithub/XHFaceRecognizerSDKSimple/Source,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple-Prefix.pch";
 				INFOPLIST_FILE = "XHFaceRecognizerSDKSimple/XHFaceRecognizerSDKSimple-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
