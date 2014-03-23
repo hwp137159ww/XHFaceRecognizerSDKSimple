@@ -26,6 +26,7 @@ typedef void(^FaceCropCompelted)(NSArray *croppedImages, NSError *error);
 @property (nonatomic, assign) id <XHFaceRecognizerViewDelegate> delegate;
 @property (nonatomic, assign) CGFloat magnifyingGlassShowDelay; // default is 0.2s
 @property (nonatomic, assign) BOOL showCropping; // default is NO
+@property (nonatomic, assign) CGSize croppedSize; // 默认是识别到的区域，如果修改了大小，便会以这个大小来截图，但是中心为人脸的中心，
 
 + (UIImage *)scaleAndRotateImage:(UIImage *)image;
 
